@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block body %}
+
+<h1>modal form registration</h1>
+
+
+
+<form action="{% url 'modalform' %}" method="post">
+    {% csrf_token %}
+    {{modalform.as_p}}
+
+  <input type="submit" value="Register" />
+
+</form>
+
+
+{% endblock %}
