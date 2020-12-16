@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
+# Application definitionasdfasdf
 
 INSTALLED_APPS = [
     'NewsApp',
